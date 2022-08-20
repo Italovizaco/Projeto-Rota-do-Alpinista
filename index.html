@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPlace</title>
+
+    <!-- Chamada do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <!-- chamada da font-awesome para uso do icone do menu hamburguer-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Antes de chamar o CSS vamos resetar os padrões do navegador.
+    <link rel="stylesheet" href="./assets/reset.css"> -->
+
+    <!-- link para o arquivo base css -->
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsivo.css">
+</head>
+
+<body>
+    <!-- menu principal da pagina -->
+    <!-- NAV = container com valor semântico que contem informações sobre a página. -->
+    <nav class="nav-bar">
+        <!-- Nome do aplicativo - Logo -->
+        <h1 class="nav-title"><span class="logo">Rota do</span> Alpinista</h1>
+
+        <!-- Opções do menu -->
+        <ul class="nav-menu">
+            <li><a href="#home" class="menu-item">Home</a></li>
+            <li><a href="#tours" class="menu-item">Tours</a></li>
+            <li><a href="#explore" class="menu-item">Explore</a></li>
+            <li><a href="#sobre" class="menu-item">Sobre</a></li>
+            <li><a href="#contato" class="btn menu-item">Contato</a></li>
+        </ul>
+        <i class="fa-solid fa-bars menu-btn"></i>
+    </nav>
+    <!--Fim header da pagina -->
+
+    <!-- header+menu+hero -->
+    <header class="hero" id="home">
+        <h2 class="hero-title">A Rota do Alpinista é exatamente assim...</h2>
+        <div class="line"></div>
+        <p class="hero-text">Simplesmente maravilhosa</p>
+        <a href="" class="btn">Mais informações</a>
+    </header>
+    <!--fim header+menu+hero -->
+
+    <!-- section tours -->
+    <section class="tours" id="tours">
+        <div class="tours-title">
+            <h2>Faça um tour pelas montanhas</h2>
+            <div class="line"></div>
+        </div>
+
+        <div class="tours-list">
+
+            <!-- 1o.tour -->
+            <div class="tours-list-item">
+                <img src="./assets/images/pexels-eberhard-grossgasteiger-572897.jpg" alt="Tour pelas montanhas">
+                <h3>Ragnarok</h3>
+                <p>As geleiras localizadas ao Norte da Noruega tem uma magia ímpar e conexões místicas.
+                </p>
+                <a href="" class="btn">Veja Mais</a>
+            </div>
+            <!-- fim 1o.tour -->
+
+            <!-- 2o.tour -->
+            <div class="tours-list-item">
+                <img src="./assets/images/pexels-francesco-ungaro-2835436.jpg" alt="Tour pelas montanhas">
+                <h3>Vale de Thor</h3>
+                <p>Conhecidas pelas tempestades de raios, estas monanhas são uma das preferidas pelos Alpinistas do
+                    mundo todo.
+                </p>
+                <a href="" class="btn">Veja Mais</a>
+            </div>
+            <!-- fim 2o.tour -->
+
+            <!-- 3o.tour -->
+            <div class="tours-list-item">
+                <img src="./assets/images/pexels-jonathan-petersson-399176.jpg" alt="Entardecer">
+                <h3>Loki House</h3>
+                <p>Um dos locais mais relaxantes entre as montanhas com acomodações e templos.
+                </p>
+                <a href="" class="btn">Veja Mais</a>
+            </div>
+            <!-- fim 3o.tour -->
+
+            <!-- 4o.tour -->
+            <div class="tours-list-item">
+                <img src="./assets/images/pexels-julia-volk-5769320.jpg" alt="Passei de veículo">
+                <h3>Fjor e Saxa</h3>
+                <p>Um lindo passeio entre as "irmãs" duas lindas montanhas com aspectos naturais distintos.
+                </p>
+                <a href="" class="btn">Veja Mais</a>
+            </div>
+            <!-- fim 4o.tour -->
+
+            <!-- 5o.tour -->
+            <div class="tours-list-item">
+                <img src="./assets/images/pexels-kleber-m-ortiz-4028995.jpg" alt="Homem nas montanhas">
+                <h3>Lions Head</h3>
+                <p>Conheça este local que promete uma das vistas mais lindas do Vale dos Leões Albinos.
+                </p>
+                <a href="" class="btn">Veja Mais</a>
+            </div>
+            <!-- fim 5o.tour -->
+
+            <!-- 6o.tour -->
+            <div class="tours-list-item">
+                <img src="./assets/images/pexels-riciardus-789380.jpg" alt="casas nas montanhas">
+                <h3>The Vikings Village</h3>
+                <p>O local mais visitado da Noruega que abriga os milenares abrigos dos Vikings da ilha.
+                </p>
+                <a href="" class="btn">Veja Mais</a>
+            </div>
+            <!-- fim 6o.tour -->
+        </div>
+
+    </section>
+    <!-- fim section tours -->
+
+    <!-- inicio da classe Explore -->
+    <div class="explore" id="explore">
+        <h2 class="hero-title">Explore nosso mundo</h2>
+        <div class="line"></div>
+        <p class="hero-text">Além de estar nas montanhas, me sinto parte da natureza, desta forma eu descobri o que é
+            ser completo. -"Jon Snow".</p>
+        <a href="" class="btn">Veja mais</a>
+    </div>
+    <!-- fim da classe Explore -->
+
+    <div class="sobre" id="sobre">
+        <div class="sobre-title">
+            <h2>Conecte-se com a natureza</h2>
+            <p>A aurora boreal é um fenômeno muito bonito da natureza que ocorre no polo norte da Terra. Ela resulta do
+                impacto dos ventos solares com o campo magnético do planeta. As luzes brilhantes caracterizam essa
+                manifestação da
+                natureza que pode ser vista em apenas alguns lugares do mundo. Conheça nossos pacotes com excursões
+                exclusivas.
+            </p>
+            <a href="" class="btn">Pacotes exclusivos</a>
+        </div>
+        <div class="quadro-imagens">
+            <img src="./assets/images/pexels-stein-egil-liland-5704789.jpg" alt="">
+            <img src="./assets/images/pexels-tuomas-haapala-7223461.jpg" alt="">
+            <img src="./assets/images/pexels-tobias-bjørkli-1693085 (1).jpg" alt="">
+        </div>
+    </div>
+
+    <div class="contato" id="contato">
+        <div class="contato-box-1">
+            <h3>Navegação</h3>
+            <div class="line"></div>   
+            <ul>
+                <li><a href="#home" class="contato-li-a">Home</a></li>
+                <li><a href="#tours" class="contato-li-a">Tours</a></li>
+                <li><a href="#explore" class="contato-li-a">Explore</a></li>
+                <li><a href="#sobre" class="contato-li-a">Sobre</a></li>
+            </ul>     
+
+        </div>
+
+        <div class="contato-box-2">
+            <h3>Serviços</h3>
+            <div class="line"></div>
+            <ul>
+                <li class="contato-li">Passeios</li>
+                <li class="contato-li">Acampamento</li>
+                <li class="contato-li">Escalada</li>
+                <li class="contato-li">Gastronomia</li>
+            </ul>
+
+        </div>
+
+        <div class="contato-box-3">
+            <h3>Contato</h3>
+            <div class="line"></div>
+            <ul>
+                <li class="contato-li font-negrito">Telefones:</li>
+                <li class="contato-li">0800-xxx-500</li>
+                <li class="contato-li">0800-500-xxx</li>
+                <li class="contato-li font-negrito">Email:</li>
+                <li class="contato-li">myplace@myplace.com</li>
+                <li class="contato-li font-negrito">Endereço:</li>
+                <li class="contato-li">Av. Paulista, 1200 - 3º Andar</li>
+            </ul>
+
+        </div>
+
+        <div class="contato-box-4">
+            <h3>Redes Sociais</h3>
+            <div class="line"></div>
+            <ul>
+                <li class="contato-li">Instagram</li>
+                <li class="contato-li">Twitter</li>
+                <li class="contato-li">Facebook</li>
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- chamar JS -->
+    <script src="./assets/js/menu.js"></script>
+    <script src="./assets/js/scroll.js"></script>
+
+</body>
+
+</html>
